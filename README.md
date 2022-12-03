@@ -19,7 +19,7 @@ int main()
   }
   else if(lob==0);
   {
-  cout<<"bhagwan meri kardo usse"<<love;
+  cout<<"bhagwan meri kardo "<<love;
   }
  }
 }
