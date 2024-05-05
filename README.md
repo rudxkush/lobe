@@ -14,19 +14,18 @@ int main()
     cout << "If yes, enter 1. Otherwise, enter 0: ";
     cin >> lob;
     
-    while (lob != 0 && lob != 1)
+    while (lob == 0 && lob != 1)
     {
-        cout << "Invalid input. Please enter 0 or 1: ";
-        cin >> lob;
+         cout << "Always meant to be my " << love;
     }
-    
+
     if (lob == 1)
     {
-        cout << "Always meant to be my " << love;
+    cout << "Bhagwan meri kardo " << love;   
     }
     else
     {
-        cout << "Bhagwan meri kardo " << love;
+        cout << "Bhagwan barbhaad kardo " << love;
     }
     
     return 0;
